@@ -135,11 +135,57 @@ line-height: normal;
 
 .bg4 {
     background-image: url('../images/Group\ 1.jpg');
-    background-size: 75%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100;
     min-height: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.p4h1 {
+    width: 620px;
+height: 38px;
+padding-left: 440px;
+padding-bottom: 30px;
+color: #E9C4B3;
+text-align: center;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.p4h2 {
+    width: 620px;
+height: 49px;
+padding-left: 315px;
+padding-bottom: 25px;
+color: #E9C4B3;
+text-align: center;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+}
+
+.linkedin-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 53px;
+    border-radius: 15px;
+    background: #E9C4B3;
+    color: #F9F5EE; 
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+    margin-right: 5px;
+    margin-bottom: 75px;
+    
 }

@@ -183,12 +183,10 @@ margin-bottom:30px;
     margin-bottom: 20px;
 }
 
-.image-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+.img-fluid {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
-.image-wrapper img {
-    max-height: 100%;
-}
+

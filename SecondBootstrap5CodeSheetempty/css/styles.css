@@ -1,5 +1,6 @@
-body{
-background-color: #F9F5EE
+body, html {
+background-color: #F9F5EE;
+height: 100%;
 }
 
 .navbar {
@@ -145,31 +146,25 @@ line-height: normal;
 }
 
 .p4h1 {
-    width: 620px;
-height: 38px;
-padding-left: 440px;
-padding-bottom: 30px;
 color: #E9C4B3;
 text-align: center;
 font-family: Helvetica, Arial, sans-serif;
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
-line-height: normal;
+line-height: 1.2;
+margin-bottom:15px;
 }
 
 .p4h2 {
-    width: 620px;
-height: 49px;
-padding-left: 315px;
-padding-bottom: 25px;
 color: #E9C4B3;
 text-align: center;
 font-family: Helvetica, Arial, sans-serif;
 font-size: 30px;
 font-style: normal;
 font-weight: 200;
-line-height: normal;
+line-height: 1.3;
+margin-bottom:30px;
 }
 
 .linkedin-btn {
@@ -185,7 +180,5 @@ line-height: normal;
     font-weight: 600;
     text-decoration: none;
     transition: 0.3s ease;
-    margin-right: 5px;
-    margin-bottom: 75px;
-    
+    margin-bottom: 20px;
 }
